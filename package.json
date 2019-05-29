@@ -1,0 +1,20 @@
+{
+    "name": "uptasknodejs",
+    "version": "1.0.0",
+    "description": "Proyectp UpTask con Node y MVC",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./index.js"
+    },
+    "author": "José Bautista Torres",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mysql2": "^1.6.5",
+        "pug": "^2.0.3",
+        "sequelize": "^5.8.6"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
